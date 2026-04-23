@@ -116,14 +116,50 @@ main{
 .skills-section{
     margin-top: 114px;
 }
+.section-description{
+    margin-bottom: 50px;
+}
 .skills-container{
     display: flex;
     gap: 24px;
+    margin-bottom: 100px;
 }
 .skill{
     padding: 30px;
     border-radius: 5px;
     text-align: left;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
-    
+
+}
+/* resume container starts here  */
+.resume-container{
+    display: flex;
+    text-align: left;
+    gap: 24px;
+}
+.download-cv-btn{
+    margin-top: 50px;
+}
+/* footer start here  */
+footer{
+    display: flex;
+    background: #FFF8F3;
+    gap: 100px;
+    margin-top: 100px;
+    padding: 130px 200px;
+}
+.footer-colmun{
+    width: 50%;
+}
+.contact input, textarea{
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    border: 0;
+    width: 100%;
+}
+.btn-width{
+    width: 50px;
 }
